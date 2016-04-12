@@ -5,15 +5,34 @@ h1 {
   font-size: 20px;
 }
 
-/* First image begins */
+// SIZE VARIABLES
+@smallest: 320px;
+@largest: 1000px;
+@img-number: 15;
+@fraction: (@largest-@smallest)/@img-number;
 
-div {
-  display: block;
+img {
+  float: left;
+  width: 300px;
+  margin: 20px 20px 20px 0;
+  display: none;
 }
 
-@media screen and (min-height: 100px) and (min-width: 200px)
-#1 {
-    display: block;
-    width: 450px;
-    height: 290px;
+.one {
+
+  img { display: block; }
+}
+
+
+@media screen and (min-height: 320px) and (min-width: 320px) {
+
+  .one {
+
+    img { display: none; }
+  }
+
+  .two {
+
+    img { display: block; }
+  }
 }
