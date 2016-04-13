@@ -2,21 +2,175 @@ h1 {
   font-family: 'Kalam';
   font-size: 20px;
 }
+.header span {
+  display: block;
+}
 @fraction : (@largest-@smallest)/@img-number;
 img {
   float: left;
-  width: 300px;
+  width: 275px;
   margin: 20px 20px 20px 0;
   display: none;
 }
 .one img {
   display: block;
 }
-@media screen and (min-height: 320px) and (min-width: 320px) {
+@media screen and (min-height: 480px) and (min-width: 320px) {
+  img {
+    width: 300px;
+  }
   .one img {
     display: none;
   }
   .two img {
+    display: block;
+  }
+}
+@media screen and (min-height: 515px) and (min-width: 365px) {
+  img {
+    width: 345px;
+  }
+  .two img {
+    display: none;
+  }
+  .three img {
+    display: block;
+  }
+}
+@media screen and (min-height: 550px) and (min-width: 410px) {
+  img {
+    width: 390px;
+  }
+  .three img {
+    display: none;
+  }
+  .four img {
+    display: block;
+  }
+}
+@media screen and (min-height: 585px) and (min-width: 455px) {
+  img {
+    width: 435px;
+  }
+  .four img {
+    display: none;
+  }
+  .five img {
+    display: block;
+  }
+}
+@media screen and (min-height: 620px) and (min-width: 500px) {
+  img {
+    width: 480px;
+  }
+  .five img {
+    display: none;
+  }
+  .six img {
+    display: block;
+  }
+}
+@media screen and (min-height: 655px) and (min-width: 545px) {
+  img {
+    width: 525px;
+  }
+  .six img {
+    display: none;
+  }
+  .seven img {
+    display: block;
+  }
+}
+@media screen and (min-height: 690px) and (min-width: 590px) {
+  img {
+    width: 570px;
+  }
+  .seven img {
+    display: none;
+  }
+  .eight img {
+    display: block;
+  }
+}
+@media screen and (min-width: 690px) {
+  .header span {
+    display: inline;
+  }
+}
+@media screen and (min-height: 725px) and (min-width: 635px) {
+  img {
+    width: 615px;
+  }
+  .eight img {
+    display: none;
+  }
+  .nine img {
+    display: block;
+  }
+}
+@media screen and (min-height: 760px) and (min-width: 680px) {
+  img {
+    width: 660px;
+  }
+  .nine img {
+    display: none;
+  }
+  .ten img {
+    display: block;
+  }
+}
+@media screen and (min-height: 795px) and (min-width: 725px) {
+  img {
+    width: 705px;
+  }
+  .ten img {
+    display: none;
+  }
+  .eleven img {
+    display: block;
+  }
+}
+@media screen and (min-height: 830px) and (min-width: 770px) {
+  img {
+    width: 750px;
+  }
+  .eleven img {
+    display: none;
+  }
+  .twelve img {
+    display: block;
+  }
+}
+@media screen and (min-height: 865px) and (min-width: 815px) {
+  img {
+    width: 795px;
+  }
+  .twelve img {
+    display: none;
+  }
+  .thirteen img {
+    display: block;
+  }
+}
+@media screen and (min-height: 900px) and (min-width: 860px) {
+  img {
+    width: 840px;
+  }
+  .thirteen img {
+    display: none;
+  }
+  .fourteen img {
+    display: block;
+  }
+}
+@media screen and (min-height: 935px) and (min-width: 905px) {
+  img {
+    width: 885px;
+  }
+  .fourteen img {
+    display: none;
+  }
+  .fifteen img {
     display: block;
   }
 }
