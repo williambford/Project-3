@@ -190,3 +190,36 @@ img {
     display: block;
   }
 }
+@media screen and (min-height: 984px) and (min-width: 796px) {
+  img {
+    width: 776px;
+  }
+  .sixteen img {
+    display: none;
+  }
+  .seventeen img {
+    display: block;
+  }
+}
+@media screen and (min-height: 1024px) and (min-width: 832px) {
+  img {
+    width: 812px;
+  }
+  .seventeen img {
+    display: none;
+  }
+  .eighteen img {
+    display: block;
+  }
+}
+@media screen and (min-height: 1064px) and (min-width: 868px) {
+  img {
+    width: 848px;
+  }
+  .eighteen img {
+    display: none;
+  }
+  .nineteen img {
+    display: block;
+  }
+}
